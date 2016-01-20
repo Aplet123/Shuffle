@@ -2,7 +2,7 @@ Shuffle
 Expansion Pack 3
 by Aplet123
 If you want to use the categorized word bank, please link them to the git.
-
+https://github.com/Aplet123/Shuffle.git
 WORD BANK:
 history:"rome,caesar,etruscans,republic,greece,democracy,athens,sparta,oligarchy,authoritarian,"
 "augustus,diocletian,constatine,emperor,government,congress,barbarians,plebians,patricians,hannibal,"
