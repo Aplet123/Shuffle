@@ -11,6 +11,5 @@ var ArrayAdv = function(string)
 			comma = string.indexOf(",");
 		}
 		array = array.concat([string]);
-	}
 	return array
 };

@@ -2,14 +2,14 @@ var currentWord="";
 var currentArray=[];
 var scrambleWord = "";
 var scrambleArray=[];
-words.history = ArrayAdv(words.history);
-words.tf2 = ArrayAdv(words.tf2);
-words.puzzle = ArrayAdv(words.puzzle);
+words.history = ArrayAdv(words.history,",");
+words.tf2 = ArrayAdv(words.tf2,",");
+words.puzzle = ArrayAdv(words.puzzle,",");
 if(activate)
 {
-	words.custom1 = ArrayAdv(words.custom1);
-	words.custom2 = ArrayAdv(words.custom2);
-	words.custom3 = ArrayAdv(words.custom3);
+	words.custom1 = ArrayAdv(words.custom1,",");
+	words.custom2 = ArrayAdv(words.custom2,",");
+	words.custom3 = ArrayAdv(words.custom3,",");
 }
 
 var rNumber = function(min,max)
