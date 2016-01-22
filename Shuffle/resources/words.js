@@ -1,4 +1,4 @@
-var packNumber = 3;
+var packNumber = 4;
 expansionNumber.innerHTML = "Expansion Pack " + String(packNumber);
 var words=
 {
@@ -14,4 +14,7 @@ var words=
 	puzzle:"mastermorphix,megaminx,pyraminx,skewb,mirrorcube,rubikscube,fishercube,dinocube,ghostcube,crosscube,"+
 	"insanitycube,magneticcube,lcube,twistcube,gearcube,buzzleball,maltesecube,skewbshift,gearpyraminx,curvycopter,"+
 	"xcuboid,mentalblock,rotoprism,proportionaloh,skewbxtreme,littlechop,hexaminx,futurocube,gearmixup,gearoctahedron"
+	fruit:"apple,orange,tangerine,clementine,grape,grapefruit,strawberry,banana,tomato,cucumber,"+"
+	avocado,almond,cashew,pecan,granola,pumpkin,olive,squash,peppers,coconut,"+
+	"fig,cranberry,dates,gooseberry,kiwi,lemon,papaya,peaches,pineapple,watermelon"
 };

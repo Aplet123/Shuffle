@@ -64,6 +64,7 @@ var genWord = function()
 	}
 	else if(theme.value=="tf2")
 	{
+		currentWord=arrayRandom([].concat(words.tf2));
 		currentArray=stringSplit(currentWord);
 		currentArray.shift();
 		scrambleArray=[];
@@ -72,6 +73,14 @@ var genWord = function()
 	else if(theme.value=="puzzle")
 	{
 		currentWord=arrayRandom([].concat(words.puzzle));
+		currentArray=stringSplit(currentWord);
+		currentArray.shift();
+		scrambleArray=[];
+		notification.innerHTML="";
+	}
+	else if(theme.value="fruit")
+	{
+		currentWord=arrayRandom([].concat(words.fruit));
 		currentArray=stringSplit(currentWord);
 		currentArray.shift();
 		scrambleArray=[];
