@@ -5,6 +5,7 @@ var scrambleArray=[];
 words.history = ArrayAdv(words.history,",");
 words.tf2 = ArrayAdv(words.tf2,",");
 words.puzzle = ArrayAdv(words.puzzle,",");
+words.fruit = ArrayAdv(words.fruit,",");
 if(activate)
 {
 	words.custom1 = ArrayAdv(words.custom1,",");
