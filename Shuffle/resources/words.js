@@ -15,6 +15,6 @@ var words=
 	"insanitycube,magneticcube,lcube,twistcube,gearcube,buzzleball,maltesecube,skewbshift,gearpyraminx,curvycopter,"+
 	"xcuboid,mentalblock,rotoprism,proportionaloh,skewbxtreme,littlechop,hexaminx,futurocube,gearmixup,gearoctahedron",
 	fruit:"apple,orange,tangerine,clementine,grape,grapefruit,strawberry,banana,tomato,cucumber,"+
-	"avocado,almond,cashew,pecan,granola,pumpkin,olive,squash,peppers,coconut,"+
-	"fig,cranberry,date,gooseberry,kiwi,lemon,papaya,peaches,pineapple,watermelon"
+	"avocado,almond,cashew,pecan,granola,pumpkin,olive,squash,pepper,coconut,"+
+	"fig,cranberry,date,gooseberry,kiwi,lemon,papaya,peach,pineapple,watermelon"
 };
