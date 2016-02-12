@@ -1,4 +1,4 @@
-var packNumber = 4;
+var packNumber = 5;
 expansionNumber.innerHTML = "Expansion Pack " + String(packNumber);
 var words=
 {
@@ -16,5 +16,7 @@ var words=
 	"xcuboid,mentalblock,rotoprism,proportionaloh,skewbxtreme,littlechop,hexaminx,futurocube,gearmixup,gearoctahedron",
 	fruit:"apple,orange,tangerine,clementine,grape,grapefruit,strawberry,banana,tomato,cucumber,"+
 	"avocado,almond,cashew,pecan,granola,pumpkin,olive,squash,pepper,coconut,"+
-	"fig,cranberry,date,gooseberry,kiwi,lemon,papaya,peach,pineapple,watermelon"
+	"fig,cranberry,date,gooseberry,kiwi,lemon,papaya,peach,pineapple,watermelon,"+
+	"guava,mangosteen,apricot,lychee,tamarind,kiwi,soursop,blackcurrant,redcurrant,eggplant,"+
+	"lucuma,pomegranate,blueberry,gourd,lime,mulberry,kumquat"
 };
