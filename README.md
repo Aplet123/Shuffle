@@ -30,5 +30,7 @@ xcuboid,mentalblock,rotoprism,proportionaloh,skewbxtreme,littlechop,hexaminx,fut
 ```
 apple,orange,tangerine,clementine,grape,grapefruit,strawberry,banana,tomato,cucumber,
 avocado,almond,cashew,pecan,granola,pumpkin,olive,squash,pepper,coconut,
-fig,cranberry,date,gooseberry,kiwi,lemon,papaya,peach,pineapple,watermelon
+fig,cranberry,date,gooseberry,kiwi,lemon,papaya,peach,pineapple,watermelon,
+guava,mangosteen,apricot,lychee,tamarind,kiwi,soursop,blackcurrant,redcurrant,eggplant,
+lucuma,pomegranate,blueberry,gourd,lime,mulberry,kumquat
 ```
