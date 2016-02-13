@@ -16,17 +16,17 @@ if(activate)
 var rNumber = function(min,max)
 {
 	var r = Math.floor(Math.random()*(max-min)+min);
-	return r
-}
+	return r;
+};
 var arrayRandom = function(array)
 {
 	var r = window.rNumber(0,array.length);
-	return array[r]
+	return array[r];
 };
 var arrayRandomAlt = function(array)
 {
 	var r = window.rNumber(1,array.length);
-	return array[r]
+	return array[r];
 };
 var scramble = function()
 {
@@ -49,8 +49,8 @@ var stringSplit = function(string)
 	for(i=0;i<arrayString.length;i++)
 	{
 		subsetString = arrayString.substring(i,i+1);array = array.concat([subsetString]);
-	};
-	return array
+	}
+	return array;
 };
 var genWord = function()
 {
@@ -79,7 +79,7 @@ var genWord = function()
 		scrambleArray=[];
 		notification.innerHTML="";
 	}
-	else if(theme.value="fruit")
+	else if(theme.value=="fruit")
 	{
 		currentWord=arrayRandom([].concat(words.fruit));
 		currentArray=stringSplit(currentWord);
@@ -118,7 +118,7 @@ var rShift = function(array)
 	var a = array;
 	var b = a.shift();
 	a.push(b);
-	return a
+	return a;
 };
 generate.addEventListener("click",genWord);
 var check = function()
@@ -140,15 +140,15 @@ var enterCheck = function(e)
 	{
 		check();
 	}
-}
+};
 var giveUp = function()
 {
 	guess.value = currentWord;
-}
+};
 var focus = function()
 {
 	guess.select();
-}
+};
 guessB.addEventListener("click",check);
 giveUpB.addEventListener("click",giveUp);
 guess.addEventListener("keydown",enterCheck);
