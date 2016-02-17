@@ -1,5 +1,5 @@
-var ArrayAdv = function(string) {
-    var comma = string.indexOf(",");
+var ArrayAdv = function(string, seperator) {
+    var comma = string.indexOf(seperator);
     var array = [];
     while (comma != (-1)) {
         var string1 = string.substring(0, comma);
